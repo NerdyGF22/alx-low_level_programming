@@ -1,16 +1,24 @@
 # include <stdio.h>
+# include <stdlib.h>
+# include <time.h>
 
-/** main -> program that prints the lowercase alphabet in reverse
+/**
+ *main - main entry
+ * program that prints the lowercase in reverse
  * starts a new line
  * Return : always 0
  */
 int main(void)
 {
-	char ch;
-	fot (ch = 'z'; ch >= 'a'; ch--)
+	int i = 122;
+
+	while (i > 96)
 	{
-		putchar(ch);
+
+		putchar(i);
+		i--;
 	}
 	putchar(10);
+
 	return (0);
 }

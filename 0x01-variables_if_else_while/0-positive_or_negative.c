@@ -3,10 +3,14 @@
 # include <stdio.h>
 
 /**
- * main -> assign a number to variable n each
- * time it is executed and prints out
+ * main - main entry
+ *
+ * description:print random numbers to
+ *
+ * variable n time it is executed and prints out
  * based on a condition
- * Return : always 0
+ *
+ * Return : Always 0 (Success)
  */
 int main(void)
 {

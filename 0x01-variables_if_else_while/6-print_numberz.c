@@ -1,16 +1,20 @@
 # include <stdio.h>
 
-/** main -> program that prints all numbers of base 10 from zero with ASCII
- * starts new line 
- * Returns : always 0
+/**
+ * main - program that prints all degits of base 10 from 0
+ * does not use putchar and starts new line
+ * Return : always 0
  */
 int main(void)
 {
-	int n;
-	for (n = 0 ; n <= 10; n++)
+	int ch;
+	for (ch = 48; ch <= 57; ch++)	
 	{
-		printf("%d", n);
+
+		putchar(ch)
 	}
-	printf("\n");
-	return(0);
+
+	putchar(10); /* the ascii code for a new line*/
+
+	return (0);
 }
