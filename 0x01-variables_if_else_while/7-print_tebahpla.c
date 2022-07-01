@@ -3,12 +3,13 @@
 # include <time.h>
 
 /**
- *main - main entry
- * program that prints the lowercase in reverse
- * starts a new line
+ * main -> a program that prints the lowercase alphabet in reverse,
+ * followed by a new line
+ *
  * Return : always 0
  */
-int main(void)
+
+int main(void) /* main is an entry that prints lowercase alphabets reversed */
 {
 	int i = 122;
 
