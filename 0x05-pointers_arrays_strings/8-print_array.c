@@ -10,7 +10,7 @@
  */
 void print_array(int *a, int n)
 {
-	intt j;
+	int j;
 
 	for (j = 0; j < n; j++)
 	{
@@ -22,5 +22,5 @@ void print_array(int *a, int n)
 		}
 	}
 
-	printf("\n");
+	printf('\n');
 }
