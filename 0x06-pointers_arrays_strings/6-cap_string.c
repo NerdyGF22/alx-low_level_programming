@@ -2,8 +2,7 @@
 
 /**
  * cap_string -> a function that capitalizes
- * @x: string
- * param
+ * @x: string param
  * Return: a capitalized string
  */
 char *cap_string(char *x)
