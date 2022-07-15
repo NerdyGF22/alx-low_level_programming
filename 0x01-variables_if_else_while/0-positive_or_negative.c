@@ -3,8 +3,9 @@
 #include <stdio.h>
 
 /**
- ** main - Determines if a number is positive, negative or zero
- ** Return: Always 0 (Success)
+ * main -> assign a random number to the variable n each time it is executed
+ * and prints the last digit of the number stored in the variable n
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
