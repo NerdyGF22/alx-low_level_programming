@@ -1,20 +1,20 @@
-# include <stdlib.h>
-# include <time.h>
 #include <stdio.h>
 
 /**
- *  * main ->  a program that prints the alphabet in lowercase
- *   * followed by a new line
- *    * Return : always 0
- *     */
- int main(void)
+ * main -> assign a random number to the variable and each time
+ * it is executed and print the last digit of the number
+ * stored in the variable n
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
 	int ch;
-	for (ch = 97; ch<=122; ch==)
-	{
-		putcahr(ch);
-	}
-	putchar(10); /*this is an ascii code for a new line
 
-	return(0);
+	for (ch = 97; ch <= 122; ch++)
+	{
+		putchar(ch);
+	}
+	putchar(10); /*this is an ascii code for a new line*/
+
+	return (0);
 }
