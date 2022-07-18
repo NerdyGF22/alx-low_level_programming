@@ -3,7 +3,7 @@
 /**
  * _strchr - a string character
  * @s: the given string
- * @c: a different character
+ * @c: another character
  * Return: a string
  */
 char *_strchr(char *s, char c)
