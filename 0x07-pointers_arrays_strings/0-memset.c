@@ -1,7 +1,6 @@
 #include "main.h"
 #include <string.h>
 
-
 /**
  * _memset -> this is a memory function
  * @s: string
