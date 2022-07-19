@@ -13,7 +13,7 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * _sqrt_recursive square root
+ * _sqrt -> recursive square root
  * @n: number
  * @i: iterator
  * Return: a number
