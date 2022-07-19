@@ -9,7 +9,7 @@ int _strlen_recursion(char *s);
  *
  * Return: 1 if it is , 0 it is not
  */
-int is_palindrome(char *s);
+int is_palindrome(char *s)
 {
 	if (*s == 0)
 		return (1);
