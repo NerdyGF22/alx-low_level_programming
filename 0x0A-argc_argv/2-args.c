@@ -2,7 +2,7 @@
 
 /**
  * main -> a function to print its name
- * @argc: argument count parameter
+ * @argc: argc parameter
  * @argv: an array of a command listed
  * Return: 0 for success
  */
