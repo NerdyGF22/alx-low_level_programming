@@ -44,4 +44,3 @@ int main(int argc, char const *argv[])
 	print("%i\n", sum);
 	return (0);
 }
-
