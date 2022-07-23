@@ -6,7 +6,7 @@
  * @argv: an array of a command listed
  * Return: 0 for success
  */
-in main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 
