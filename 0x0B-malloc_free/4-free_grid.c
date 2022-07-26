@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * free-grid - free a 2D grid previous created
+ * free_grid - free a 2D grid previous created
  * by alloc_grid
  * @grid: pointer to 2D grid
  * @height: number of rows
- * Return: nothing, free memory
+ * Return: nothing, frees memory
  */
 void free_grid(int **grid, int height)
 {
