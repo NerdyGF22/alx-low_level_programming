@@ -1,10 +1,11 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
- * alloc_grid -> a function to create a 2D integer grid
- * @width: the number of columns
+ * alloc_grid - function to create a 2D integer grid
+ * @width: the number of colums
  * @height: number of rows
- * Return: pointer grid or null
+ * Return: a pointer to grid or null
  */
 int **alloc_grid(int width, int height)
 {
@@ -12,7 +13,7 @@ int **alloc_grid(int width, int height)
 
 	if (width < 1 || height < 1)
 		return (NULL);
-	grid = malloc(sizeof(int) * height);
+	grid = malloc(sizeof(int *) * height);
 	if (grid == NULL)
 	{
 		free(grid);
