@@ -9,7 +9,7 @@
  * @n: the maximumn number of bytes of s2 to concatenates s1.
  *
  * Return: if the function fails - NULL.
- * otherwise - a pointer to the concatenated space in memory.
+ *	Otherwise - a pointer to the concatenated space in memory.
  *
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
