@@ -12,7 +12,7 @@
  * otherwise - a pointer to the concatenated space in memory.
  *
  */
-char *string_nconcat(char *s1, char *s2, unsigned in n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *concat;
 	unsigned int len = n, index;
