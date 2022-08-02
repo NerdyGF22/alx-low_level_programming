@@ -1,17 +1,24 @@
 # include <stdio.h>
 
 /**
- * main -> assign a random number to the variable n each time it is executed
- * and print the last digit of the number stored in variable n
+ * main -> program that prints the alphabet in lowercase, and then in uppercase
+ * followed by new line
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int ch;
+	int ch = 97;
+	int CH = 65;
 
-	for (ch = 97; ch <= 122; ch++)
+	while (ch <= 122)
 	{
 		putchar(ch);
+		ch++;
+	}
+	while (CH <= 90)
+	{
+		putchar(CH);
+		CH++;
 	}
 	putchar(10); /*this is an ascii code for a new line*/
 
