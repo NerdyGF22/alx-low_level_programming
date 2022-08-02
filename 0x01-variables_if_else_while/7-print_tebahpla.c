@@ -12,8 +12,13 @@
 int main(void) /* main is an entry that prints lowercase alphabets reversed */
 {
 	char ch;
+	int n;
 
-	for (ch = 'z'; ch >= 'a'; ch--)
+	for (n = 48; n <= 58; n++)
+	{
+		puchar(n);
+	}
+	for (ch = 'a'; ch <= 'f'; ch++)
 	{
 		putchar(ch);
 	}
