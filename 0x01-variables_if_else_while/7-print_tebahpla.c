@@ -6,18 +6,16 @@
  * main -> a program that prints the lowercase alphabet in reverse,
  * followed by a new line
  *
- * Return : always 0
+ * Return: always 0
  */
 
 int main(void) /* main is an entry that prints lowercase alphabets reversed */
 {
-	int i = 122;
+	char ch;
 
-	while (i > 96)
+	for (ch = 'z'; ch >= 'a'; ch--)
 	{
-
-		putchar(i);
-		i--;
+		putchar(ch);
 	}
 	putchar(10);
 
