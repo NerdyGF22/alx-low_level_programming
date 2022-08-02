@@ -1,20 +1,20 @@
 #include <stdio.h>
 
 /**
- * main -> assign a random number to the variable and each time
- * it is executed and print the last digit of the number
- * stored in the variable n
+ * main ->  program that prints the alphabet in lowercase
+ * followed by a new line using putchar
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int ch;
+	char ch = 'a';
 
-	for (ch = 97; ch <= 122; ch++)
+	while (ch <= 'z')
 	{
 		putchar(ch);
+		ch++;
 	}
-	putchar(10); /*this is an ascii code for a new line*/
+	putchar('\n'); /*this is a code for a new line*/
 
 	return (0);
 }
