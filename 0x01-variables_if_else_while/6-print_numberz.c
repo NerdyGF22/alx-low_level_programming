@@ -2,19 +2,19 @@
 
 /**
  * main - program that prints all degits of base 10 from 0
- * does not use putchar and starts new line
- * Return : always 0
+ * only uses putchar and starts new line
+ * Return: always 0
  */
 int main(void)
 {
-	int ch;
-	for (ch = 48; ch <= 57; ch++)	
+	int n = 0;
+
+	while (n < 10)
 	{
-
-		putchar(ch)
+		putchar(n);
+		n++;
 	}
-
-	putchar(10); /* the ascii code for a new line*/
+	putchar('\n');
 
 	return (0);
 }
